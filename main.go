@@ -12,6 +12,8 @@ import (
 	"strings"
 )
 
+var appversion = "0.0.1"
+
 // progressWriter wraps an io.Writer to print progress information.
 type progressWriter struct {
 	total   int64
